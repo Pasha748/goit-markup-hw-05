@@ -146,6 +146,9 @@ body {
   color: var(--contacts-color);
   margin-right: 50px;
   align-items: center;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-mail-svg {
   margin-right: 10px;
